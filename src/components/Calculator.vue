@@ -53,7 +53,7 @@ export default {
                 this.operatorClicked= false;
                 console.log("operatorClicked")
             }
-            this.current =`${this.current}${number }`;
+            this.current += number;
         },
         dot() {
             if(this.current.indexOf('.')===-1){
